@@ -35,6 +35,10 @@ def turn(board)
   end
 end
 
-def play(arg)
-
+def play(board)
+  i = 0
+  while i < 9
+    turn(board)
+    i ++
+  end
 end
